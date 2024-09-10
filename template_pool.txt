@@ -1,0 +1,2 @@
+create ltm pool {{pool_name}} { load-balancing-mode {{pool_lb_method}} members add {% raw %}{{% endraw %} {{pool_members.0}} {{pool_members.1}} {{pool_members.2}} {{pool_members.3}} {{pool_members.4}} {{pool_members.5}} {{pool_members.6}} {{pool_members.7}} {{pool_members.8}} {{pool_members.9}} {% raw %}}{% endraw %} monitor {{pool_healthcheck}} description "{{description}}" }
+

@@ -1,0 +1,2 @@
+create ltm virtual {{vs_name}} { destination {{vs_address}}{{vs_port}} ip-protocol {{vs_protocol}} pool {{pool_name}}  profiles add { {{vs_profiles}}  } persist {{ persist_profile }}  {{snat_pool}} description "{{description}}" }
+

@@ -1,0 +1,2 @@
+create ltm monitor {{healthcheck_type}} {{healthcheck_name}} { {{healthcheck_data}} description "{{description}}" }
+

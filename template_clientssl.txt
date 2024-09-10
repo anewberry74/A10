@@ -1,0 +1,1 @@
+create ltm profile client-ssl {{clientssl_profile_name}} {  defaults-from clientssl_placeholder-safe-v11 cert {{cert_name}} key {{key_name}} chain cert_comodo-chain-bundle-v2.crt  description "{{description}}" }
